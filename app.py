@@ -1,19 +1,3 @@
-"""
-Data God - AutoML Studio (Python 3.13 compatible)
-====================================================
-A Streamlit app that lets you upload a dataset, clean it, explore it with a
-lightweight EDA report, train/compare regression or classification models
-with scikit-learn, and run predictions on new data.
-
-This version deliberately avoids pycaret and ydata-profiling, since neither
-currently ships wheels for Python 3.13 - which is what was causing the
-"metadata-generation-failed" pip error. Everything here runs on
-streamlit + pandas + numpy + scikit-learn + plotly + joblib, all of which
-fully support 3.13 and install fast.
-
-Run with:  streamlit run app.py
-"""
-
 import os
 import numpy as np
 import pandas as pd
